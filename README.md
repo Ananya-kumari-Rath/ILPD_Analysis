@@ -22,8 +22,8 @@ Albumin and Globulin Ratio: Ratio of albumin to globulin.
 Label: Target variable indicating liver disease (1 for liver patient, 0 for non-liver patient)
 
 ## Prerequisites
-Python 3.x
-Libraries:
+-Python 3.x
+-Libraries:
 pandas - For data manipulation
 numpy - For numerical operations
 scikit-learn - For logistic regression and model evaluation
@@ -31,9 +31,6 @@ matplotlib & seaborn - For visualization
 
 ## Results
 The results section presents the performance metrics of the logistic regression model and insights from the analysis. Findings include the most significant predictors of liver disease and potential improvements for the model.
-
-## Usage
-To run the analysis, execute the main script.
 
 ## Conclusion
 This project provides a framework for understanding the ILPD and using logistic regression to predict liver disease. Further improvements could include using other classification models (e.g., decision trees, SVM) and more feature engineering.
